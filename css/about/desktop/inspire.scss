@@ -1,0 +1,59 @@
+.inspire{
+    width: 100%;
+    padding: 128px 160px;
+    display:flex;
+    flex-flow: column wrap;
+    row-gap: 96px;
+    background-color: #EEF4FA;
+    .anti div:nth-of-type(1){
+        order:1;
+    }
+    .anti div:nth-of-type(2){
+        order:2;
+    }
+    div{
+        width: 100%;
+        display: flex;
+        flex-flow:row wrap;
+        column-gap: 140px;
+         .text{
+             width: 623px;
+              display: flex;
+              flex-flow: column wrap;
+              row-gap: 16px;
+              span{
+                color:#282938;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 175% */
+            }
+             h3{
+                 color:#282938;
+                 font-family: Poppins;
+                 font-size: 38px;
+                 font-style: normal;
+                 font-weight: 600;
+                 line-height: 56px; /* 147.368% */
+            }
+             p{
+                 color:#282938;
+                 font-family: Poppins;
+                 font-size: 16px;
+                 font-style: normal;
+                 font-weight: 400;
+                 line-height: 28px; /* 175% */
+                 opacity: 0.7;
+            }
+        }
+         .picture{
+             width: fit-content;
+             img{
+                width: 515px;
+                height: 336px;
+            }
+        }
+    }
+
+}

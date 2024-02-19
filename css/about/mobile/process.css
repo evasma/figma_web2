@@ -1,0 +1,74 @@
+.process {
+    width: 100%;
+    padding: 128px 0;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 20px;
+    align-items:flex-start;
+    overflow: hidden;
+    background-color: #FFF;
+    padding-left: 10px;
+  }
+  .process h2 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+  }
+  .process .down {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    justify-content: start;
+    row-gap: 50px;
+  
+  }
+  .process .down div {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 32px;
+  }
+  .process .down div .line {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap:40px;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  .process .down div .line span {
+    width: 2%;
+    fill: #2405F2;
+  }
+  .process .down div .line img {
+    width: 70%;
+    height: 2px;
+    fill: #2405F2;
+    opacity: 1;
+  }
+  .process .down div .caption {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 8px;
+    align-items: flex-start;
+  }
+  .process .down div .caption h6 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .process .down div .caption p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    opacity: 0.7;
+  }/*# sourceMappingURL=process.css.map */

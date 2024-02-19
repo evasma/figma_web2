@@ -1,0 +1,32 @@
+
+.frequently {
+    width: 100%;
+    padding: 100px 20px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    background-color: #fff;
+  }
+  .frequently .left{
+   text-align: left;
+  }
+  .frequently .left h3 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 147.368% */
+  }
+  .frequently .left a {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    opacity: 0.87;
+    text-decoration: none;
+    color: #2405F2;
+  }
+ /*# sourceMappingURL=frequently.css.map */

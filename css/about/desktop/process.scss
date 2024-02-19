@@ -1,0 +1,73 @@
+.process{
+    width: 100%;
+    padding: 128px 160px;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 15px;
+    align-items: center;
+    background-color: #FFF;
+    h2{
+        color:#282938;
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+    }
+    .down{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        column-gap: 56px;
+        div{
+            width: fit-content;
+            display: flex;
+            flex-flow: column wrap;
+            row-gap: 32px;
+            .line{
+                display: flex;
+                flex-flow: row wrap;
+                column-gap: 24px;
+                justify-content: flex-start;
+                align-items: center;
+                span{
+                    width: 24px;
+                    height: 24px;
+                    fill:#2405F2;
+                }
+                img{
+                    width: 224px;
+                    height: 2px;
+                    opacity: 0.4;
+                    opacity: 0.4;
+                    fill: #2405F2;
+                }
+
+            }
+            .caption{
+                display: flex;
+                flex-flow: column wrap;
+                row-gap: 8px;
+                align-items: flex-start;
+                h6{
+                    color:#282938;
+                    font-family: Poppins;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 36px; /* 150% */
+                    text-transform: capitalize;
+                }
+                p{
+                    color:#282938;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px; /* 175% */
+                    opacity: 0.7;
+                }
+            }
+        }         
+    }
+}

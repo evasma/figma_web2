@@ -1,0 +1,36 @@
+.frequently{
+    width: 100%;
+    padding: 128px 158px;
+    display:grid;
+    grid-template-columns: 328px auto;
+    column-gap: 136px;
+    justify-content:start;
+    background-color: #fff;
+    cursor: pointer;
+    .left{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        h3{
+            color:#282938;
+            font-family: Poppins;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 56px; /* 147.368% */
+            text-align: left;
+        }
+        a{
+            text-align: center;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+            opacity: 0.87;
+            text-decoration: none;
+            color:#2405F2;
+    }
+}
+
+}

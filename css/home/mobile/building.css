@@ -1,0 +1,119 @@
+.building {
+    width: 100%;
+    background-color:#FFF;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    overflow: hidden;
+  }
+  .building .picture {
+    width:100%;
+    padding: 100px 50px;
+    background-image: url(../../../image/woman-writing-on-paper-3228878.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .building .picture h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px; /* 137.037% */
+    margin-bottom: 24px;
+  }
+  .building .picture p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+  }
+  .building .mail {
+    width:100%;
+    background-color: #1C1E53;
+    text-align: left;
+    padding: 100px 50px;
+  
+  }
+  .building .mail h5 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 150% */
+    margin-bottom: 16px;
+  }
+  .building .mail p {
+    color: #F4F6FC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    margin-bottom: 40px;
+  }
+  .building .mail form {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 16px;
+    align-items: flex-start;
+
+  }
+  .building .mail form input {
+    width: 80%;
+    height: auto;
+    background: #1C1E53;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    color: #FFFFFF;
+    padding: 18px 0 18px 32px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    outline: none;
+  }
+  .building .mail form button {
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 15px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 41px;
+    background: #FCD980;
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    margin-bottom: 28px;
+  }
+  .building .mail a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  }
+  .building .mail a span:nth-of-type(1) {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    margin-right: 10px;
+  }/*# sourceMappingURL=building.css.map */

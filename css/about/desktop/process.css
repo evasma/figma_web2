@@ -1,0 +1,75 @@
+.process {
+  width: 100%;
+  padding: 128px 160px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 15px;
+  align-items: center;
+  background-color: #FFF;
+}
+.process h2 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+.process .down {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  -moz-column-gap: 56px;
+       column-gap: 56px;
+}
+.process .down div {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 32px;
+}
+.process .down div .line {
+  display: flex;
+  flex-flow: row wrap;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.process .down div .line span {
+  width: 24px;
+  height: 24px;
+  fill: #2405F2;
+}
+.process .down div .line img {
+  width: 224px;
+  height: 2px;
+  opacity: 0.4;
+  opacity: 0.4;
+  fill: #2405F2;
+}
+.process .down div .caption {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 8px;
+  align-items: flex-start;
+}
+.process .down div .caption h6 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 150% */
+  text-transform: capitalize;
+}
+.process .down div .caption p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}/*# sourceMappingURL=process.css.map */

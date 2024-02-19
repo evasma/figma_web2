@@ -1,0 +1,60 @@
+.inspire {
+  width: 100%;
+  padding: 128px 160px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 96px;
+  background-color: #EEF4FA;
+}
+.inspire .anti div:nth-of-type(1) {
+  order: 1;
+}
+.inspire .anti div:nth-of-type(2) {
+  order: 2;
+}
+.inspire div {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  -moz-column-gap: 140px;
+       column-gap: 140px;
+}
+.inspire div .text {
+  width: 623px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 16px;
+}
+.inspire div .text span {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+.inspire div .text h3 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+}
+.inspire div .text p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+.inspire div .picture {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.inspire div .picture img {
+  width: 515px;
+  height: 336px;
+}/*# sourceMappingURL=inspire.css.map */

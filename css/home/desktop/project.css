@@ -1,0 +1,184 @@
+.project {
+  width: 100%;
+  padding: 128px 160px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: #ffffff;
+}
+.project .top {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.project .top h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  color: #282938;
+  line-height: 64px; /* 133.333% */
+}
+.project .top a {
+  text-decoration: none;
+  color: #282938;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.project .top a span:nth-of-type(1) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  text-transform: capitalize;
+}
+.project .top a span:nth-of-type(2) {
+  width: 24px;
+  margin-left: 16px;
+}
+.project .bottom {
+  width: 1280px;
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 843px 405px;
+  grid-template-rows: repeat(1, 600px);
+  justify-content: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  background-color: #FFF;
+}
+.project .bottom .pr1 {
+  position: relative;
+  overflow: hidden;
+}
+.project .bottom .pr1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project .bottom .pr1 .cover {
+  width: 396px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -396px;
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  transition: 300ms;
+  padding: 312px 35px 76px 48px;
+}
+.project .bottom .pr1 .cover h5 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+  margin-bottom: 16px;
+}
+.project .bottom .pr1 .cover p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+.project .bottom .pr1 .cover a {
+  text-decoration: none;
+  color: #FCD980;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.project .bottom .pr1 .cover a span:nth-of-type(1) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+.project .bottom .pr1 .cover a span:nth-of-type(2) {
+  width: 24px;
+  margin-left: 16px;
+}
+.project .bottom .pr1:hover .cover {
+  left: 0;
+}
+.project .bottom .pr2 {
+  display: grid;
+  grid-template-columns: 405px;
+  grid-template-rows: repeat(2, 284px);
+  row-gap: 32px;
+}
+.project .bottom .pr2 .up {
+  width: 405px;
+  height: 284px;
+  position: relative;
+  overflow: hidden;
+}
+.project .bottom .pr2 .up img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project .bottom .pr2 .up .cover2 {
+  width: 405px;
+  height: 284px;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 129px 36px 45px 56px;
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  transition: 300ms;
+}
+.project .bottom .pr2 .up .cover2 h5 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+  margin-bottom: 10px;
+}
+.project .bottom .pr2 .up .cover2 a {
+  text-decoration: none;
+  color: #FCD980;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.project .bottom .pr2 .up .cover2 a span:nth-of-type(1) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.project .bottom .pr2 .up .cover2 a span:nth-of-type(2) {
+  margin-left: 16px;
+}
+.project .bottom .pr2 .up:hover .cover2 {
+  top: 0;
+}
+.project .bottom .pr2 .down {
+  width: 405px;
+  height: 284px;
+}
+.project .bottom .pr2 .down img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=project.css.map */

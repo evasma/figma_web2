@@ -1,0 +1,60 @@
+.meet {
+  width: 100%;
+  padding: 128px 160px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  row-gap: 48px;
+  background-color: #f4f6fc;
+}
+.meet h2 {
+  color: #282938;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+  text-transform: capitalize;
+}
+.meet .team {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 296px);
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+.meet .team div {
+  width: 100%;
+  height: 344px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: #fff;
+}
+.meet .team div img {
+  width: 168px;
+  height: 168px;
+  margin-top: 48px;
+  border-radius: 168px;
+}
+.meet .team div h6 {
+  color: #1d2130;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 150% */
+  margin-top: 30px;
+}
+.meet .team p {
+  color: #1d2130;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+  margin-top: 2px;
+}/*# sourceMappingURL=meet.css.map */

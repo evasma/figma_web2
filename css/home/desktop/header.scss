@@ -1,0 +1,161 @@
+.hero {
+    width: 100%;
+    height: 760px;
+    background-color: #1c1e53;
+    position: relative;
+  
+    .navbar {
+      width: 100%;
+      height: 92px;
+      position: absolute;
+      top: 0;
+  
+      nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        box-shadow: none;
+  
+        .logo {
+          width: fit-content;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          padding: 0;
+          margin-left: 60px;
+        }
+        .navitem {
+          width: fit-content;
+          height: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          margin-left: 200px;
+          margin-right: 128px;
+  
+          div {
+            width: fit-content;
+            padding: 0;
+            margin-left: 0;
+            margin-right: 32px;
+  
+            a {
+              color: #bbbbcb;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              text-decoration: none;
+              text-transform: capitalize;
+              line-height: 28px; /* 175% */
+            }
+            .active {
+              color: #ffff;
+            }
+            .contact {
+              display: inline-block;
+              width: 185px;
+              height: 60px;
+              text-align: center;
+              line-height: 60px;
+              border-radius: 41px;
+              border: 2px solid rgba(244, 246, 252, 0.2);
+            }
+          }
+        }
+      }
+    }
+    .slogan{
+      width: 100%;
+      margin-top: 126px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: start;
+      column-gap: 85px;
+      .left{
+          width: 582px;
+          height: 414px;
+          margin-left: 160px;
+          h1{
+              color:  #FFF;
+              font-family: Poppins;
+              font-size: 54px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 74px; /* 137.037% */
+              margin-bottom: 24px;
+          }
+          p{
+              color:#FFF;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 28px; /* 175% */
+              opacity: 0.7;
+              margin-bottom: 48px;
+          }
+          div{
+              width: 100%;
+              display: flex;
+              flex-flow: row wrap;
+              a:nth-of-type(1){
+                  display: inline-flex;
+                  padding: 16px 56px;
+                  justify-content: center;
+                  align-items: center;
+                  color: #1B1C2B;
+                  font-family: Manrope;
+                  font-size: 18px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: 32px; /* 177.778% */
+                  border-radius: 41px;
+                  background: #FCD980;
+                  text-decoration: none;
+                  text-transform: capitalize;
+              }
+              a:nth-of-type(2){
+                  margin-left: 40px;
+                  color: white;
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 28px; /* 175% */
+                  text-decoration: none;
+                  display: flex;
+                  flex-flow: row wrap;
+                  align-items: center;
+                  span:nth-of-type(2){
+                      margin-left: 16px;
+                      width: 24px;
+                      height: 0px;
+                      color: white;
+                      vertical-align: middle;
+                  }
+              }
+          }
+      }
+      .right{
+        width: fit-content;
+        margin-top:30px;
+        margin-right: 40px;
+        img{
+          width: 638px;
+          height: 361px;;
+        }
+      }
+  }
+  }
+  label[for="show"],
+  #show,
+  label[for="close"],
+  #close {
+    display: none;
+  }
+  
+  /* menu css */
+  

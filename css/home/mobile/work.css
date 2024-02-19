@@ -1,0 +1,83 @@
+.work {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 60px;
+    align-items: flex-start;
+    background-color: #F4F6FC;
+    overflow: hidden;
+    padding: 100px 20px;
+
+  }
+  .work .left {
+    width:100%;
+    text-align: left;
+   
+  }
+  .work .left h2 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+  }
+  .work .left p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 16px;
+  }
+  .work .left a {
+    width: 244px;
+    color: #2405F2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .work .left a span:nth-of-type(2) {
+    margin-left: 16px;
+    vertical-align: middle;
+  }
+  .work .right {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 50px;
+    color: #282938;
+    overflow: hidden;
+  }
+  .work .right div img {
+    margin-bottom: 16px;
+  }
+  .work .right div h5 {
+    width: 100%;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 8px;
+  }
+  .work .right div p {
+    width: 100%;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    
+  }/*# sourceMappingURL=work.css.map */

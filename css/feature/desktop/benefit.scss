@@ -1,0 +1,92 @@
+.benefit{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 48px;
+    align-items: center;
+    padding: 128px 160px;
+    background-color: #fff;
+    h2{
+        color:#282938;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+    }
+    .slide{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 32px;
+        justify-content: center;
+        div{
+            width: 405px;
+            height: 316px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: flex-start;
+            padding: 50px 33px 48px 48px ;
+            background-color:#F4F6FC;
+            span{
+                width: 32px;
+                height: 32px;
+                margin-bottom: 26px;
+            }
+            h6{
+                color:#282938;
+                font-family: Poppins;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 36px; /* 150% */
+                margin-bottom: 12px;
+            }
+            p{
+                color:#282938;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px; /* 175% */
+                opacity: 0.7;
+            }
+        }
+    }
+    .brand{
+        width: 100%;
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+        align-items: center;
+        img:nth-of-type(1){
+         width: 176px;
+        }
+        img:nth-of-type(2){
+            width: 161.815px;
+            height: 32px;
+            opacity: 0.8;
+        }
+        img:nth-of-type(3){
+            width: 136.149px;
+            height: 32px;
+            opacity: 0.8;
+        }
+        img:nth-of-type(4){
+            width: 135.055px;
+            height: 32px;
+            opacity: 0.8;
+        }
+        img:nth-of-type(5){
+            width: 153.743px;
+            height: 32px;
+            opacity: 0.8;
+        }
+        img:nth-of-type(6){
+            width: 136.364px;
+            height: 32px;
+            opacity: 0.8;
+        }
+    }
+}

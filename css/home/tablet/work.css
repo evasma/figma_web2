@@ -1,0 +1,81 @@
+.work {
+    width: 100%;
+    padding: 100px 50px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    background-color: #F4F6FC;
+  }
+  .work .left {
+    width: 50%;
+    text-align:left;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .work .left h2 {
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+  }
+  .work .left p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 16px;
+  }
+  .work .left a {
+    width: 244px;
+    color: #2405F2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .work .left a span:nth-of-type(2) {
+    margin-left: 16px;
+    vertical-align: middle;
+  }
+  .work .right {
+    width: 70%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: start;
+    row-gap: 48px;
+    column-gap: 30px;
+    color: #282938;
+  }
+  .work .right div img {
+    margin-bottom: 16px;
+  }
+  .work .right div h5 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 8px;
+  }
+  .work .right div p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+  }/*# sourceMappingURL=work.css.map */
